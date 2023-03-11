@@ -1,11 +1,17 @@
 import React from 'react';
 import "./Home.css";
+import Products from "./Products";
+import BasicSlider from './BasicSlider';
 
 function Home() {
   return (
     <div className='home'>
         <div className="home_container">
-            <img className='home_image' src="https://images-na.ssl-images-amazon.com/images/G/15/CA-hq/2023/img/Consumables/XCM_CUTTLE_1543192_2917252_1500x200_en_CA.jpg" alt="Home Image" />
+            {/* <img className='home_image' src="https://m.media-amazon.com/images/I/61mUo7Pxs2L._SX3000_.jpg" alt="Home Image" /> */}
+            <BasicSlider />
+            <div className="home_row">
+              <Products />
+            </div>
         </div>
     </div>
   )

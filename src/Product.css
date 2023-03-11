@@ -1,0 +1,31 @@
+.rows {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10%;
+    margin-top: -57px;
+}
+
+.DeTan {
+    max-height: 180px;
+}
+
+#PinkCloud {
+    margin: 10px;
+}
+
+#Pallete {
+    margin-left: 50px;
+}
+
+#FashionII {
+    margin-top: -57px;
+}

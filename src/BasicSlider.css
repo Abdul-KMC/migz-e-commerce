@@ -1,0 +1,38 @@
+.basicSlider {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: black;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.inner .left {
+    flex: 5%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.inner .center {
+    flex: 90%;
+    height: 50%;
+}
+
+.inner .right {
+    flex: 5%;
+    height: 50%;
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
